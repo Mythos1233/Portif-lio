@@ -4,6 +4,12 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: var(--claro);
 }
 
 html {
@@ -224,6 +230,33 @@ h1 {
     text-align: justify;
 }
 
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    background-image: radial-gradient(var(--maisEscuro), rgba(225, 225, 225, 0.05));
+}
+
+.box2 a{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.paragrafo-footer{
+font-size: 1.2rem;
+}
+
 .particulas {
     position: fixed;
     top: 0;
@@ -235,6 +268,8 @@ h1 {
     opacity: 0.5;
     background: radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%), radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%) var(--maisEscuro);
 }
+
+
 
 @keyframes flutuar {
 

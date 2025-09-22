@@ -4,6 +4,11 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+a{
+    color: var(--claro);
 }
 
 html {
@@ -65,7 +70,7 @@ nav ul li a:hover {
 }
 
 .main{
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     padding: 2rem;
     align-items: start;
@@ -114,4 +119,31 @@ nav ul li a:hover {
     pointer-events: none;
     opacity: 0.5;
     background: radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%), radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%) var(--maisEscuro);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    background-image: radial-gradient(var(--maisEscuro), rgba(225, 225, 225, 0.05));
+}
+
+.box2 a{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box2 img{
+    width: 50px;
+    height: 50px;
+}
+
+.paragrafo-footer{
+font-size: 1.2rem;
 }
