@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,130 +15,189 @@
     <link
         href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div class="particulas"></div>
-
     <header>
         <a href="home.html"><img src="img/logo.png" alt="logomb"></a>
-        <nav class="navegacao">
+        <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="index.html">Projetos</a></li>
-                <li><a href="sobremim.html">Sobre Mim</a></li>
+                <li><a href="home.html" class="menu-link">Home</a></li>
+                <li><a href="index.html" class="menu-link">Projetos</a></li>
+                <li><a href="sobremim.html" class="menu-link">Sobre Mim</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="cabecalho">
-        <div class="flex">
-            <img src="img/eu.jpeg" alt="eu" class="foto-perfil">
-            <h1>Murilo Barros</h1>
-            <p class="cabecalho-sub-titulo">Técnico em Informática para Internet</p>
+    <section class="container"> <!--Onde fica todas as informações-->
+
+        <div class="list"> <!--Lista de onde ficas os itens-->
+
+            <div class="item active"> <!--Seu item próprio-->
+
+                <div class="paulofreire">
+                    <img src="img/paulo freire.png" alt="paulofreire">
+                    <div></div>
+                </div>
+
+                <div class="content">
+                    <p class="paulofreire-info">
+                        2025
+                    </p>
+
+                    <h2 class="oi">
+                        Paulo Freire
+                    </h2>
+
+                    <p class="descricaopaulo">
+                        Trabalho feito em HTML, CSS E JavaScript, para o evento escolar "Paulo Freire", onde nosso tema era imaginação criativa. Todo o projeto foi feito em coletivo com alguns alunos da sala, mas minha parte especifica que era a página "Atividades" era a única com JS do site inteiro.
+                    </p>
+
+                    <a href="https://mythos1233.github.io/Paulo-Freire-2025/index.html" target="_blank">
+                        <button class="information" type="button">
+                            Saiba Mais
+                        </button>
+                    </a>
+
+                </div> <!--content-->
+            </div> <!--item-->
+
+            <div class="item"> <!--Seu item próprio-->
+
+                <div class="paulofreire" id="pokemon">
+                    <img src="img/Logo TCGP.png" alt="paulofreire">
+                </div>
+
+                <div class="content">
+                    <p class="paulofreire-info">
+                        2025
+                    </p>
+
+                    <h2 id="pokemon2">
+                        Pokemon TCPG (Fanmade)
+                    </h2>
+
+                    <p class="descricaopaulo">
+                        Este foi outro projeto escolar mas agora pessoal e individual, nosso professor nos desafiou a fazer uma réplica perfeita de algum aplicativo no Figma, e eu fiquei com o jogo Pokemon TCG Pocket, o mais difícil da tabela, mas eu acho que consegui me virar bem e fiz muita coisa até o prazo estipulado.
+                    </p>
+
+                    <a href="https://www.figma.com/design/FXUBxfnFGeraaLK7nOkghl/Pokemon-TCGP?t=WhUyCLzzTFtBj4fF-0" target="_blank">
+                        <button class="information" type="button">
+                            Saiba Mais
+                        </button>
+                    </a>
+
+                </div> <!--content-->
+            </div> <!--item-->
+
+            <div class="item"> <!--Seu item próprio-->
+
+                <div class="paulofreire">
+                    <img src="img/sussurros.png" alt="paulofreire">
+                </div>
+
+                <div class="content">
+                    <p class="paulofreire-info">
+                        2025
+                    </p>
+
+                    <h2 id="sussurros2">
+                        Sussurros na Pele
+                    </h2>
+
+                    <p class="descricaopaulo">
+                        Outra atividade escolar feita no Figma, mas dessa vez em dupla, fiz com o meu amigo, eu fiz o roteiro/dialogos e os personagens, e ele fez a história do jogo, juntos nós fizemos um dos maiores projetos da sala, com mais de 1000 frames com textos animados e uma história cativante.
+                    </p>
+
+                    <a href="https://www.figma.com/design/ApT2aVsvjvPj42pbMgO7EH/Sussurros-na-Pele?t=FYz4Tbo6kfaF5lVD-0" target="_blank">
+                        <button class="information" type="button">
+                            Saiba Mais
+                        </button>
+                    </a>
+
+                </div> <!--content-->
+            </div> <!--item-->
+
+            <div class="item"> <!--Seu item próprio-->
+
+                <div class="paulofreire" id="wikly">
+                    <img src="img/wikly.png" alt="paulofreire">
+                </div>
+
+                <div class="content">
+                    <p class="paulofreire-info">
+                        2024
+                    </p>
+
+                    <h2 class="oi">
+                        Wikly
+                    </h2>
+
+                    <p class="descricaopaulo">
+                        o Wikly foi o meu primeiro trabalho avaliativo feito no Figma, em 2024 era meu primeiro ano no curso e essa atividade avaliativa me ajudou muito para aprender coisas que eu uso até hoje no figma, claro que você pode ver a minha evolução de 2024 para 2025.
+                    </p>
+
+                    <a href="https://www.figma.com/design/o4vJ6hOtyy4GxqAyAFfqHb/Wikly?node-id=0-1&p=f&t=hei7eBpv7IZJko1i-0" target="_blank">
+                        <button class="information" type="button">
+                            Saiba Mais
+                        </button>
+                    </a>
+
+                </div> <!--content-->
+            </div> <!--item-->
+
+            <div class="item"> <!--Seu item próprio-->
+
+                <div class="paulofreire" id="pokem">
+                    <img src="img/PokemQuest.png" alt="paulofreire">
+                </div>
+
+                <div class="content">
+                    <p class="paulofreire-info">
+                        2024
+                    </p>
+
+                    <h2 class="oi">
+                        PokemQuest
+                    </h2>
+
+                    <p class="descricaopaulo">
+                        O PokemQuest foi um trabalho, que, confeso que foi feito as pressas para avaliação de um outro professor, nós tinhamos que criar um quiz responsivo e que funcionasse com qualquer tema que quiséssemos, e nós escolhemos pokemon.
+                    </p>
+
+                    <a href="https://mythos1233.github.io/PokemQuest">
+                        <button class="information" type="button">
+                            Saiba Mais
+                        </button>
+                    </a>
+
+                </div> <!--content-->
+            </div> <!--item-->
+
+
+        </div> <!--list-->
+
+        <div class="arrows"> <!--Div fora da lista de itens, que vão se tornar os botões para alternar o carossel-->
+            <button id="prev"><img src="img/arrow.png" alt="setaesquerda"></button>
+            <button id="next"><img src="img/arrow.png" alt="setadireita"></button>
         </div>
 
-        <section class="sobre">
-            <h2 class="sobre-titulo">Sobre Mim</h2>
-            <div class="sobre-caixa">
-                <p class="sobre-paragrafo">Meu nome é Murilo Barros, sou um homem de 17 anos aspirante a programador e
-                    técnico em Informática, curso Informática para Internet na ETEC Professor Adhemar Batista Heméritas,
-                    onde já fiz inúmeros trabalhos e projetos que me ajudaram muito no meu desenvolvimento, onde eu busco
-                    incessantemente por mais aprendizado.</p>
-            </div>
-        </section>
-    
-
-    </main>
-
-    
-    <section class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-
-        <div class="projetos-caixa">
-            <a href="index.html">
-                <div class="projetos-card">
-                    <img src="img/paulo freire.png" alt="paulo freir" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Paulo Freire</h3>
-                        <p class="paragrafo-projetos">Projeto para a o evento Paulo Freire do nosso curso.</p>
-                    </div>
-                </div>
-            </a>
-
-
-            <a href="index.html">
-                <div class="projetos-card">
-                    <img src="img/Logo TCGP.png" alt="paulo freir" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Pokemon TCGP (FanMade)</h3>
-                        <p class="paragrafo-projetos">Projeto de uma cópia "idêntica" de Pokemon TCG Pocket.</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="index.html">
-                <div class="projetos-card">
-                    <img src="img/sussurros.png" alt="paulo freir" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Sussurros na Pele</h3>
-                        <p class="paragrafo-projetos">Projeto para a criação de um jogo feito totalmente no Figma.</p>
-                    </div>
-                </div>
-            </a>
+        <div class="indicators"> <!--Indicadores de qual dos itens do carossel você está vendo-->
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
 
     </section>
 
-    <section class="habilidades">
-        <h2 class="habilidade-titulo">Minhas Habilidades</h2>
-
-        <div class="grid-container">
-            <div class="box">
-                <h2>HTML</h2>
-                <p>No curso eu aprendi HTML por todo o período dele, dominando-o completamente.</p>
-            </div>
-            <div class="box">
-                <h2>CSS</h2>
-                <p>Durante o período de estudo no curso, aprendemos todo o necessário de CSS, o dominando também.</p>
-            </div>
-            <div class="box">
-                <h2>JavaScript</h2>
-                <p>JavaScript foi um dos mais divertidos e legais de aprender, aprendemos todo o básico além de um pouco
-                    de lógica de programação avançada.</p>
-            </div>
-            <div class="box">
-                <h2>C++</h2>
-                <p>C++ Foi um dos pilares também da lógica de programação que aprendemos, aprendendo todo o básico e se
-                    mostrando muito divertido e útil.</p>
-            </div>
-            <div class="box">
-                <h2>Linux</h2>
-                <p>Um dos únicos sistemas oeracionais que aprendemos, usando seu terminal e seus códigos.</p>
-            </div>
-            <div class="box">
-                <h2>Banco de Dados</h2>
-                <p>Banco de Dados sempre foi minha parte favorita, aprendemos a usar Microsoft Access e MySQL, que foi
-                    extremamente divertido!</p>
-            </div>
-            <div class="box">
-                <h2>Figma</h2>
-                <p>Na parte de prototipagem e desenvolvimento, o Figma sempre foi o meu favorito na hora de fazer
-                    qualquer coisa, aprendemos tudo dele e dominamos completamente.</p>
-            </div>
-            <div class="box">
-                <h2>CMD & Windows</h2>
-                <p>Também aprendemos muito sobre o próprio Windows e seu CMD, comando básicos e avançados.</p>
-            </div>
-            <div class="box">
-                <h2>Dispositivos Móveis</h2>
-                <p>Fizemos muitos e muitos trabalhos sobre sites e aplicativos para dispositivos móveis, como jogos e
-                    atividades avaliativas, dando créditos para o uso do Construct 3.</p>
-            </div>
-        </div>
-    </section>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
