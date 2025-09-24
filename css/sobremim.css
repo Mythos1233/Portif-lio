@@ -97,8 +97,6 @@ nav ul li a:hover {
     text-align: justify;
 }
 
-
-
 .main img{
     position: absolute;
     left: 60%;
@@ -146,4 +144,24 @@ nav ul li a:hover {
 
 .paragrafo-footer{
 font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1500px){
+    .titulo{
+        font-size: 2.5rem;
+    }
+
+.main{
+    max-width: 60vw;
+    gap: 2rem;
+}
+
+    .main img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .paragrafo-main{
+        max-width: 45vw;
+    }
 }

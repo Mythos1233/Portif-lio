@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-a{
+a {
     color: var(--claro);
 }
 
@@ -76,17 +76,18 @@ nav ul li a:hover {
 }
 
 .cabecalho {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.flex{
+.flex {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .cabecalho .foto-perfil {
@@ -95,7 +96,7 @@ nav ul li a:hover {
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
     border-radius: 50%;
     border: solid var(--vidro);
-    animation: flutuar 5s ease-in-out infinite; 
+    animation: flutuar 5s ease-in-out infinite;
 }
 
 h1 {
@@ -115,7 +116,7 @@ h1 {
 
 .sobre {
     padding: 6rem 2rem;
-    
+
 }
 
 .sobre-titulo {
@@ -230,7 +231,7 @@ h1 {
     text-align: justify;
 }
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -239,7 +240,7 @@ h1 {
     background-image: radial-gradient(var(--maisEscuro), rgba(225, 225, 225, 0.05));
 }
 
-.box2 a{
+.box2 a {
     display: flex;
     padding: 20px;
     text-align: center;
@@ -248,13 +249,13 @@ h1 {
     gap: 1rem;
 }
 
-.box2 img{
+.box2 img {
     width: 50px;
     height: 50px;
 }
 
-.paragrafo-footer{
-font-size: 1.2rem;
+.paragrafo-footer {
+    font-size: 1.2rem;
 }
 
 .particulas {
@@ -283,9 +284,45 @@ font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 1500px){
-    .cabecalho .foto-perfil{
+@media screen and (max-width: 1500px) {
+    .cabecalho .foto-perfil {
         width: 250px;
         height: 250px;
+    }
+
+    .flex{
+        margin-top: 6rem;
+    }
+
+    .sobre {
+        padding: 6rem 1rem;
+        margin-top: 30px;
+    }
+
+    .sobre-titulo {
+        font-size: 2.5rem;
+        color: var(--claro);
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .sobre-caixa {
+        padding: 2rem;
+        width: 40vw;
+        margin: 0 auto;
+        border-radius: 16px;
+        border: 1px solid var(--vidro);
+        backdrop-filter: blur(10px);
+        background: rgba(225, 225, 225, 0.05);
+        height: 49vh;
+    }
+
+    .sobre-paragrafo {
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+
+    .grid-container .box p{
+        font-size: 0.9rem;
     }
 }
