@@ -170,8 +170,8 @@ section .list .item #wikly img {
     max-width: 50%;
 }
 
-section .list .item #pokemon2 {
-    font-size: 8em;
+section .list .item .pokemon2 {
+    font-size: 6em;
 }
 
 section .list .item #sussurros2 {
@@ -340,8 +340,8 @@ section {
         margin-top: 10vh;
     }
 
-    section .list .item #pokemon2 {
-        font-size: 3.5em;
+    section .list .item .content .pokemon2 {
+        font-size: 3.6rem;
     }
 
     section .list .item #sussurros2 {

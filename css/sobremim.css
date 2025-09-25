@@ -72,7 +72,7 @@ nav ul li a:hover {
 .main{
     height: 100vh;
     display: flex;
-    padding: 2rem;
+    padding: 0.5rem;
     align-items: start;
     flex-direction: column;
     max-width: 40vw;

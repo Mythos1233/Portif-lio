@@ -314,7 +314,7 @@ h1 {
         border: 1px solid var(--vidro);
         backdrop-filter: blur(10px);
         background: rgba(225, 225, 225, 0.05);
-        height: 49vh;
+        height: 50vh;
     }
 
     .sobre-paragrafo {
@@ -323,7 +323,7 @@ h1 {
     }
 
     .grid-container .box p{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
 
